@@ -135,51 +135,51 @@ document.addEventListener('keydown', function(event) {
 
 
 
-function ExcluirProduto(ultimoCodVenda) {
+// function ExcluirProduto(ultimoCodVenda) {
 
-    var container = document.createElement('div');
-    container.classList.add('container', 'alerta');
+//     var container = document.createElement('div');
+//     container.classList.add('container', 'alerta');
 
-    const myRequest = new Request("http://localhost/api", {
-        method: "POST",
-        body: '{"foo":"bar"}',
-      });
+//     const myRequest = new Request("http://localhost/api", {
+//         method: "POST",
+//         body: '{"foo":"bar"}',
+//       });
 
       
-    container.innerHTML = `
-    <h2>Excluir Produto</h2>
-    <form method="GET" action="pesquisar.php">
-        <label for="codigo_barras">Código do produto que deseja excluir</label><br><br>
-        <input type="text" name="codigo_barras" id="codigo_barras" placeholder="Digite o código de barras"><br><br>
+//     container.innerHTML = `
+//     <h2>Excluir Produto</h2>
+//     <form method="GET" action="pesquisar.php">
+//         <label for="codigo_barras">Código do produto que deseja excluir</label><br><br>
+//         <input type="text" name="codigo_barras" id="codigo_barras" placeholder="Digite o código de barras"><br><br>
         
-        <input class="ultimoCodVenda" type="hidden" value="`+ultimoCodVenda+`"name="venda" id="">
-        <button type="submit">Pesquisar</button>
-    </form>
-    `;
+//         <input class="ultimoCodVenda" type="hidden" value="`+ultimoCodVenda+`"name="venda" id="">
+//         <button type="submit">Pesquisar</button>
+//     </form>
+//     `;
 
-    document.body.appendChild(container);
+//     document.body.appendChild(container);
 
-    container.style.borderRadius = '20px';
-    container.style.backgroundColor = '#1565c0';
-    container.style.padding = '20px';
-    container.style.position = 'absolute';
-    container.style.top = '50%';
-    container.style.left = '50%';
-    container.style.transform = 'translate(-50%, -50%)';
-    container.style.color = 'white';
-    container.style.textAlign = 'center';
-;
+//     container.style.borderRadius = '20px';
+//     container.style.backgroundColor = '#1565c0';
+//     container.style.padding = '20px';
+//     container.style.position = 'absolute';
+//     container.style.top = '50%';
+//     container.style.left = '50%';
+//     container.style.transform = 'translate(-50%, -50%)';
+//     container.style.color = 'white';
+//     container.style.textAlign = 'center';
+// ;
 
-    document.getElementById('codigo_barras').focus();
-}
+//     document.getElementById('codigo_barras').focus();
+// }
 
-document.addEventListener('keydown', function(event) {
+// document.addEventListener('keydown', function(event) {
 
-    if (event.key === 'F8') {
-        event.preventDefault(); 
-        var ultimoCodVenda = document.getElementById('ultimoCodVenda').textContent.trim();
-        ExcluirProduto(ultimoCodVenda);
-    }
-});
+//     if (event.key === 'F8') {
+//         event.preventDefault(); 
+//         var ultimoCodVenda = document.getElementById('ultimoCodVenda').textContent.trim();
+//         ExcluirProduto(ultimoCodVenda);
+//     }
+// });
 
 

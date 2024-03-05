@@ -203,14 +203,14 @@ $dados = ConsultarCaixa();
                     <fieldset class="Atalhos">
                         <legend class="legend"><b>Atalhos</b></legend>
                         <p><b>Inserir Produto- A</b></p>
-                        <p><b>Nova Venda- SHIFT + F2</b></p>
-                        <p><b>Excluir Produto- F8</b></p>
-                        <p><b>A definir- SHIFT + ?</b></p>
-                        <p><b>A definir- SHIFT + ?</b></p>
-                        <p><b>A definir- SHIFT + ?</b></p>
-                        <p><b>A definir- SHIFT + ?</b></p>
-                        <p><b>A definir- SHIFT + ?</b></p>
-                        <p><b>A definir- SHIFT + ?</b></p>
+                        <p><b> </b></p>
+                        <p><b> </b></p>
+                        <p><b> </b></p>
+                        <p><b> </b></p>
+                        <p><b> </b></p>
+                        <p><b> </b></p>
+                        <p><b> </b></p>
+                        <p><b> </b></p>
                         <p><b>Fechar- ESC/Escape</b></p>
 
                     </fieldset>
