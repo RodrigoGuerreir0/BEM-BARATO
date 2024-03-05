@@ -80,6 +80,8 @@
                 </div>
             </div>
             </form>
+            <a href="../index.html"><button type="" class="btn2">Menu Inicial</button></a>
+
         </div>
     </div>
 </body>

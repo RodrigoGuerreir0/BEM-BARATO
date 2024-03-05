@@ -52,11 +52,11 @@ $dados = ConsultarCaixa();
                         <div class="centralizarqtdgeral-main">
                             <p class="centralizarqtdgeral">
                                 <?php
-                                    if (isset($ultimoID)) {
-                                        echo $ultimoID;
-                                    } else {
-                                        echo "";
-                                    }
+                                if (isset($ultimoID)) {
+                                    echo $ultimoID;
+                                } else {
+                                    echo "";
+                                }
                                 ?>
                             </p>
                         </div>
@@ -175,13 +175,13 @@ $dados = ConsultarCaixa();
                         <legend class="legend"><b>Valor Unidade</b></legend>
                         <div class="centralizarqtdgeral-main">
                             <p class="centralizarqtdgeral">
-                            <?php
-                            if (isset($ultimoValor)) {
-                                echo "R$ " . $ultimoValor ;
-                                    } else {
-                                        echo "";
-                                    }
-                            ?>
+                                <?php
+                                if (isset($ultimoValor)) {
+                                    echo "R$ " . $ultimoValor;
+                                } else {
+                                    echo "";
+                                }
+                                ?>
                             </p>
                         </div>
                     </fieldset>
@@ -189,14 +189,14 @@ $dados = ConsultarCaixa();
                         <legend class="legend"><b>Quantidade</b></legend>
                         <div class="centralizarqtdgeral-main">
                             <p class="centralizarqtdgeral">
-                            <?php
-                            if (isset($ultimaQuantidade)) {
-                                echo  $ultimaQuantidade ;
-                                    } else {
-                                        echo "";
-                                    }
-                            ?>
-                        
+                                <?php
+                                if (isset($ultimaQuantidade)) {
+                                    echo  $ultimaQuantidade;
+                                } else {
+                                    echo "";
+                                }
+                                ?>
+
                             </p>
                         </div>
                     </fieldset>
@@ -210,9 +210,9 @@ $dados = ConsultarCaixa();
                         <p><b> </b></p>
                         <p><b> </b></p>
                         <p><b> </b></p>
-                        <p><b> </b></p>
                         <p><b>Fechar- ESC/Escape</b></p>
-
+                        <br><br><br><br><br><br><br><br><br><br>
+                        <p class="centralizarSaida"><a href="../index.html"><button type="" class="btn2">Menu Inicial</button></a></p>
                     </fieldset>
                 </div>
             </div>

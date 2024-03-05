@@ -16,6 +16,21 @@ body {
   background-color: #fff; /* White background */
 }
 
+.btn2 {
+  background-color: #c01515; /* Dark blue color */
+  border: 1px solid #c01515; /* Dark blue color */
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  width: 400px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: #ff0000; 
+}
+
 .password-icon {
   position: absolute;
   right: 5px;

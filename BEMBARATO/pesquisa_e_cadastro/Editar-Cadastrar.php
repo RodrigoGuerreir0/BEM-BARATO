@@ -89,7 +89,7 @@ session_start();
         </form>
         
         <!-- Botão Sair -->
-        <a id="sairButton" href="../index.html" style="background-color: #ff0000; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Sair</a>
+        <a id="sairButton" href="../index.html" style="background-color: #ff0000; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Menu Inicial</a>
         
     </div>
 

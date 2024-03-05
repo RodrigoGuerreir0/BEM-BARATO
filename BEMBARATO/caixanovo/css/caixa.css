@@ -162,18 +162,18 @@ body {
   padding-top: 10px;
 }
 
-.divisoriacaixa2{
+.divisoriacaixa2 {
   border: 1px transparent solid;
   width: 110vh;
   max-width: 110vh;
-  min-width: 100vh;  
+  min-width: 100vh;
   min-height: 74vh;
   height: 74vh;
   max-height: 74vh;
   padding-top: 10px;
 }
 
-.Caixa{
+.Caixa {
   border: 3px #1565c0 solid;
   background-color: #fff;
   border-radius: 25px;
@@ -204,7 +204,7 @@ body {
   margin-left: 2%;
 }
 
-.Logo{
+.Logo {
   width: 270px;
   max-width: 270px;
   height: 270px;
@@ -253,8 +253,29 @@ body {
   cursor: pointer;
 }
 
+.centralizarSaida {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn:hover {
   background-color: #2196f3;
+}
+
+.btn2 {
+  background-color: #c01515; /* Dark blue color */
+  border: 1px solid #c01515; /* Dark blue color */
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  width: 200px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: #ff0000;
 }
 
 .NumeroDeProdutos {
